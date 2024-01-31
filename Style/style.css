@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 90px;
+    color: #ffffff;
+    background-color: #000;
+    padding: 30px 80px;
+}
+.line{
+    width: 1px;
+    height: 60px;
+    background-color: #fff;  
+    margin-left: 60px;  
+}
+/* .logo{
+    width: 90px;
+    height: 30px;
+} */
+.list{
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    list-style: none;
+    font-size: 16px;
+    font-weight: 600;
+    color: #ffffff;
+    margin-left: 60px;
+    font-style: normal;
+}
+.logo,.list-item{
+    cursor: pointer;
+}
+.buy-btn{
+    padding: 7px 25px;
+    background-color: #ba0cc5;
+    color: #ffffff;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    border: none;
+    font-style: normal;
+}
+.main{
+    background-image: url("../Assets/bg.png");
+    background-size: cover;
+    height: 100vh;
+    width: 100wh;
+    background-attachment: fixed;
+    text-align: center;
+}
+.heading{
+    font-size: 70px;
+    color: #ffffff;
+    font-weight: 800;
+    text-align: center;
+    line-height: 90px;
+    margin: 0 auto;
+    max-width: 800px;
+    padding-top: 160px;
+    font-style: normal;
+}
+.description{
+    color: #ffffff;
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 40px;
+    font-style: normal;
+}
+.Access-btn{
+    color: #ffffff;
+    background-color: #ba0cc5;
+    border: none;
+    padding: 10px 30px;
+    font-size: 25px;
+    font-weight: 600;
+    border-radius: 10px;
+    margin-top: 25px;
+    font-style: normal;
+    cursor: pointer;
+    
+}
